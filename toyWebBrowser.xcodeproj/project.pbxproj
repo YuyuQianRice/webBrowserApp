@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894CC7D9260AE22C008DA3CD /* TabCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CC7D8260AE22C008DA3CD /* TabCollectionViewController.swift */; };
+		894CC7E1260AE7F6008DA3CD /* TabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CC7E0260AE7F6008DA3CD /* TabCollectionViewCell.swift */; };
+		894CC7EC260B0CD1008DA3CD /* sturcts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CC7EB260B0CD1008DA3CD /* sturcts.swift */; };
+		897726FD2609B70500825263 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897726FC2609B70500825263 /* WebKit.framework */; };
 		89DB661E2609B24C006A1D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB661D2609B24C006A1D9A /* AppDelegate.swift */; };
 		89DB66202609B24C006A1D9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB661F2609B24C006A1D9A /* SceneDelegate.swift */; };
 		89DB66222609B24C006A1D9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB66212609B24C006A1D9A /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		894CC7D8260AE22C008DA3CD /* TabCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCollectionViewController.swift; sourceTree = "<group>"; };
+		894CC7E0260AE7F6008DA3CD /* TabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCollectionViewCell.swift; sourceTree = "<group>"; };
+		894CC7EB260B0CD1008DA3CD /* sturcts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sturcts.swift; sourceTree = "<group>"; };
+		897726FC2609B70500825263 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		89DB661A2609B24C006A1D9A /* toyWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toyWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DB661D2609B24C006A1D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DB661F2609B24C006A1D9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897726FD2609B70500825263 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		897726FB2609B70500825263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				897726FC2609B70500825263 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89DB66112609B24C006A1D9A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +100,7 @@
 				89DB66332609B24E006A1D9A /* toyWebBrowserTests */,
 				89DB663E2609B24E006A1D9A /* toyWebBrowserUITests */,
 				89DB661B2609B24C006A1D9A /* Products */,
+				897726FB2609B70500825263 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +124,9 @@
 				89DB66262609B24D006A1D9A /* Assets.xcassets */,
 				89DB66282609B24D006A1D9A /* LaunchScreen.storyboard */,
 				89DB662B2609B24D006A1D9A /* Info.plist */,
+				894CC7D8260AE22C008DA3CD /* TabCollectionViewController.swift */,
+				894CC7E0260AE7F6008DA3CD /* TabCollectionViewCell.swift */,
+				894CC7EB260B0CD1008DA3CD /* sturcts.swift */,
 			);
 			path = toyWebBrowser;
 			sourceTree = "<group>";
@@ -259,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89DB66222609B24C006A1D9A /* ViewController.swift in Sources */,
+				894CC7EC260B0CD1008DA3CD /* sturcts.swift in Sources */,
 				89DB661E2609B24C006A1D9A /* AppDelegate.swift in Sources */,
+				894CC7E1260AE7F6008DA3CD /* TabCollectionViewCell.swift in Sources */,
 				89DB66202609B24C006A1D9A /* SceneDelegate.swift in Sources */,
+				894CC7D9260AE22C008DA3CD /* TabCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
